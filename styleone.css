@@ -11,6 +11,7 @@
     --colorFive: #173753; 
 
     --fontOne: 'Merriweather', 'Playfair Display', serif;
+    --fontTwo: 'Times New Roman', Times, serif;
 }
 
 *{
@@ -44,6 +45,8 @@ header h1 {
 }
 
 nav {
+    min-width: 320px;
+    max-width: 100%;
     padding: 0.5rem 0rem 0.5rem 1rem;
     background-color: var(--colorThree);
 }
@@ -62,7 +65,8 @@ nav > a:hover {
 }
 
 main {
-    width: 800px;
+    min-width: 320px;
+    max-width: 800px;
     height: 1500px;    
     margin-top: -10px;
     margin: auto;
@@ -71,37 +75,40 @@ main {
     background-color: white;    
 }
 
+main h2 {
+    margin-left: 7px;
+    padding-top: 20px;
+    font: bold 1.5rem var(--fontOne);
+}
 main p {
     margin: 10px;
     line-height: 1.5rem;
     text-align: justify;
-    font-family: var(--fontOne);
+    font-family: var(--fontTwo);
 }
-main h2 {
-    margin-left: 7px;
-    padding-top: 10px;
-    font-family: var(--fontOne);
-}
+
 img {
-        position: relative;
-        left: 3.8rem;
+    margin: auto;
+    width: 100%;
 }
 
 footer {
     padding: 0.3rem 0rem 0.3rem 1rem;    
+    text-align: center;    
     background-color: var(--colorThree);
 }
 
 footer p {
+    min-width: 320px;
+    max-width: 100%;
     font: bold 0.9em Arial, Helvetica, sans-serif;
-    text-align: center;    
     color: black;
-
 }
 
 .squareimg {
-    width: 40rem;
+    width: 95%;
     height: 15rem;
+    margin-bottom: 5px;
     margin: auto;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.452);
     background-color: var(--colorOne);
