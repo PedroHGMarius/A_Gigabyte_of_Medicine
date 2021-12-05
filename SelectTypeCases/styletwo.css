@@ -43,10 +43,10 @@ main > a > div {
     height: 54px;    
     font-size: 3em;
     font-family: var(--fontOne);
-}
-div, #title {
     user-select: none;
 }
+
+
 
 #casosreais{
     margin-left: 10px;
@@ -79,11 +79,13 @@ div, #title {
     margin-bottom: 8px;
     font-family: var(--fontTwo);
     text-align: center;
+    user-select: none;
 }
 .content p{
     margin: 0px 30px;
     font-family: var(--fontTwo);
     text-align: justify;
+    user-select: none;
 }
 .container .card {
     width: 360px;

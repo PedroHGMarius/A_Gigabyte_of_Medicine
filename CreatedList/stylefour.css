@@ -82,6 +82,15 @@ main p {
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+h1, #title {
+    user-select: none;
+}
+h2, #title {
+    user-select: none;
+}
+p, #title {
+    user-select: none;
+}
 
 footer {
     padding: 0.3rem 0rem 0.3rem 1rem;    

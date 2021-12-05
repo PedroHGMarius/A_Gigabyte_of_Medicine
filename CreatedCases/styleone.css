@@ -75,12 +75,16 @@ main > article > div > code > p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p, #title {
+h1, #title {
     user-select: none;
 }
 h2, #title {
     user-select: none;
 }
+p, #title {
+    user-select: none;
+}
+
 
 footer {
     margin: 10px -8px 12px -10px;
