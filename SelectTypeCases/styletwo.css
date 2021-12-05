@@ -86,7 +86,6 @@ div, #title {
     text-align: justify;
 }
 .container .card {
-    position: relative;
     width: 360px;
     height: 400px;
     margin: 30px;
