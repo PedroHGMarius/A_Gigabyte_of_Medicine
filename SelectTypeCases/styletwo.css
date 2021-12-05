@@ -75,8 +75,7 @@ main > a > div {
 }
 .container .card {
     width: 440px;
-    height: 520px;
-    margin: 30px;
+    height: 72vh;
     box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
     border-radius: 15px;
     background: rgba(156, 156, 156, 0.144);
@@ -92,7 +91,7 @@ main > a > div {
     margin-bottom: 8px;
     font-family: var(--fontTwo);
     text-align: center;
-    font-size: 8vw;
+    font-size: 2.5em;
     user-select: none;
 
 }
@@ -100,6 +99,6 @@ main > a > div {
     margin: 0px 30px;
     font-family: var(--fontTwo);
     text-align: justify;
-    font-size: 3vw;
+    font-size: 1.2em;
     user-select: none;
 }
