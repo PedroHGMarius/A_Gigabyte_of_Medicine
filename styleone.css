@@ -91,6 +91,9 @@ img {
     left: 5%;
     width: 90%;
 }
+aside{
+    margin-bottom: 10px;
+}
 
 footer {
     padding: 0.3rem 0rem 0.3rem 1rem;  
