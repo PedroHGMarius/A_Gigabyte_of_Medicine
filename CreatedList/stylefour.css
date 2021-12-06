@@ -97,7 +97,8 @@ p, #title {
 }
 
 footer {
-    padding: 0.3rem 0rem 0.3rem 1rem;    
+    padding: 0.3rem 0rem 0.3rem 1rem;  
+    text-align: center;    
     background-color: var(--colorThree);
 }
 footer p {
