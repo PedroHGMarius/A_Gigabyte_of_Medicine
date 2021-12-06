@@ -11,6 +11,7 @@
     --colorThree: #1D70A2;
     --colorFour: #1B4353;
     --colorFive: #173753; 
+    --colorSix: #610f0f;
 
         --fontOne: 'Merriweather', 'Playfair Display', serif;
         --fontTwo: 'Times New Roman', Times, serif;
@@ -26,6 +27,15 @@
 html, body {
     min-height: 100vh;
     background-color: #6daddb70;
+}
+h1, #title {
+    user-select: none;
+}
+h2, #title {
+    user-select: none;
+}
+p, #title {
+    user-select: none;
 }
 body::-webkit-scrollbar {
     width: 0.5rem;
@@ -48,6 +58,7 @@ header h1 {
 
 nav {
     padding: 0.5rem 0rem 0.5rem 1rem;
+    margin-bottom: 15px;
     background-color: var(--colorThree);
 }
 nav a {
@@ -61,42 +72,48 @@ nav > a:hover {
     font-size: 1.2em;
     color: var(--colorOne);
 }
-
-main div{
-    width: 600px;
-    height: 750px;   
-    margin: auto;
-    border: 25px solid rgb(97, 15, 15);
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner {
+    position: relative;
+    width: 650px;
+    height: 700px;  
     border-radius: 15px;
+    background-color: var(--colorSix);
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 650px;   
     color: black;  
     background-color: white;
-
 }
-main h2 {
+.content h2 {
+    margin-top: 10px;
+    font-size: 2em;
     margin: 6px 6px 0px 6px;    
     padding: 6px 6px 0px 6px;
-
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fontOne);
 }
-main p {
+.content p {
+    margin: 10px;
+    font-size: 1em;
     margin: 6px 6px 0px 6px;
     padding: 6px 6px 0px 6px;
     line-height: 1.5em;
     text-align: justify;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-h1, #title {
-    user-select: none;
-}
-h2, #title {
-    user-select: none;
-}
-p, #title {
-    user-select: none;
+    font-family: var(--fontThree);
 }
 
 footer {
+    margin-top: 15px;
     padding: 0.3rem 0rem 0.3rem 1rem;  
     text-align: center;    
     background-color: var(--colorThree);
