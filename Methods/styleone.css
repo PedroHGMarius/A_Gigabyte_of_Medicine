@@ -100,12 +100,3 @@ footer p {
     font: bold 0.9em var(--fontOne);
     color: black;
 }
-
-.squareimg {
-    width: 40rem;
-    height: 15rem;
-    margin: auto;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.452);
-    background-color: var(--colorOne);
-}
-
