@@ -64,7 +64,8 @@ nav > a:hover {
 }
 
 main {
-    width: 1000px;
+    max-width: 1000px;
+    min-width: 320px;
     height: 100vh;    
     margin-top: -10px;
     margin: auto;
@@ -96,5 +97,6 @@ footer p {
     min-width: 320px;
     max-width: 100%;
     font: bold 0.9em var(--fontOne);
+    word-break: break-word;
     color: black;
 }
