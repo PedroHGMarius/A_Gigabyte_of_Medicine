@@ -97,6 +97,6 @@ footer p {
     min-width: 320px;
     max-width: 100%;
     font: bold 0.9em var(--fontOne);
-    word-break: break-word;
+    word-break: break-all;
     color: black;
 }
