@@ -81,6 +81,9 @@ main h2 {
     padding-top: 4px;
     font-family: var(--fontOne);
 }
+ul {
+    margin-left: 25px;
+}
 
 footer {
     padding: 0.3rem 0rem 0.3rem 1rem;    
