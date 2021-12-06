@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;600&family=Source+Sans+Pro:wght@400;600&display=swap');
 
 :root {
     --colorOne: #6DAEDB;
@@ -11,6 +13,9 @@
     --colorSix: #610F0F;
     --colorSeven: #AA919185;
 
+    --fontOne: 'Merriweather', 'Playfair Display', serif;
+    --fontTwo: 'Times New Roman', Times, serif;
+    --fontThree: 'Montserrat', 'Poppins', 'Source Sans Pro', sans-serif;
 }
 
 body {
@@ -28,11 +33,10 @@ header {
     background-color: var(--colorFive);
     margin: -10px -8px 0px -10px;
 }
-header > h1 {
-    margin: -3px 0px 10px 8px;
-    padding: 2px;
+header h1 {
+    padding: 1.5rem 0rem 1.5rem 1.3rem;
+    font: bold 3rem var(--fontOne);
     color: white;
-    font-family: 'Dancing Script', cursive;
 }
 
 nav {
@@ -87,12 +91,12 @@ p, #title {
 
 
 footer {
-    margin: 10px -8px 12px -10px;
-    background-color: var(--colorFour);
+    padding: 0.3rem 0rem 0.3rem 1rem;    
+    background-color: var(--colorThree);
 }
-footer > p {
-    font-size: 0.8em;
-    padding-left: 8px;
-    text-align: center;
-    color: white;
+footer p {
+    min-width: 320px;
+    max-width: 100%;
+    font: bold 0.9em var(--fontOne);
+    color: black;
 }

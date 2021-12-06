@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;600&family=Source+Sans+Pro:wght@400;600&display=swap');
 
 :root {
     --colorOne: #6DAEDB;
@@ -11,6 +12,8 @@
     --colorFive: #173753; 
 
     --fontOne: 'Merriweather', 'Playfair Display', serif;
+    --fontTwo: 'Times New Roman', Times, serif;
+    --fontThree: 'Montserrat', 'Poppins', 'Source Sans Pro', sans-serif;
 }
 
 *{
@@ -48,7 +51,7 @@ nav {
 }
 nav a {
     margin-left: 8px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fontOne);
     text-decoration: none;
     transition-duration: .4s;    
     color: var(--colorFive);
@@ -97,10 +100,10 @@ footer {
     background-color: var(--colorThree);
 }
 footer p {
-    font: bold 0.9em Arial, Helvetica, sans-serif;
-    text-align: center;    
+    min-width: 320px;
+    max-width: 100%;
+    font: bold 0.9em var(--fontOne);
     color: black;
-
 }
 
 
