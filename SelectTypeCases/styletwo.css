@@ -9,7 +9,7 @@
         margin-left: 100vw;
 }
     100% {
-        font-size: 3em;
+        font-size: 4em;
         margin-left: 20px;
     }
 }
@@ -19,7 +19,7 @@
         margin-right: 100vw;
 }
     100% {
-        font-size: 3em;
+        font-size: 4em;
         margin-right: 20px;
     }
 }
@@ -75,7 +75,7 @@ a {
     align-items: flex-start; 
     margin-left: 20px;
     margin-top: 10px;
-    font-size: 3em;
+    font-size: 4em;
     font-family: var(--fontOne);
     color: black;
     user-select: none;
@@ -88,7 +88,7 @@ a {
     right: 0%;  
     margin-right: 20px;
     margin-bottom: 10px;
-    font-size: 3em;
+    font-size: 4em;
     font-family: var(--fontOne);
     color: white;
     user-select: none;
