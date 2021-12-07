@@ -52,7 +52,8 @@
 }
 body {
     height: 100vp;
-    background: black linear-gradient(135deg, var(--colorTwo), var(--colorTwo) 50%, var(--colorFive) 50%, var(--colorFive)) bottom no-repeat;
+    background-color: var(--colorFive);
+    background-image: linear-gradient(135deg, var(--colorTwo), var(--colorTwo) 50%, var(--colorFive) 50%, var(--colorFive));
     background-attachment: fixed;
 }
 body::-webkit-scrollbar {
@@ -92,7 +93,7 @@ a {
     color: white;
     user-select: none;
     animation-name: casoscriados;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 
 .container {
@@ -114,7 +115,7 @@ a {
     border-left: 1px solid rgba(255,255,255,0.5);
     backdrop-filter: blur(5px);
     animation-name: img;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 .content h1{
     margin-bottom: 8px;
