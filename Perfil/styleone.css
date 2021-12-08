@@ -43,13 +43,13 @@ body::-webkit-scrollbar-thumb{
 header {
     margin-top: -3px;
     background-image: linear-gradient(45deg, var(--colorFive), var(--colorFive) 48%, var(--colorTwo));
-    animation-name: titulo;
-    animation-duration: 2s;
 }
 header h1 {
     padding: 1.5rem 0rem 1.5rem 1.3rem;
     font: bold 3rem var(--fontOne);
     color: white;
+    animation-name: titulo;
+    animation-duration: 2s;
 }
 nav {
     padding: 0.5rem 0rem 0.5rem 1rem;
