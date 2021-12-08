@@ -4,35 +4,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;600&family=Source+Sans+Pro:wght@400;600&display=swap');
 
-
 :root {
     --colorOne: #6DAEDB;
     --colorTwo: #2892D7;
     --colorThree: #1D70A2;
     --colorFour: #1B4353;
-    --colorFive: #173753;
-    --colorSix: #610F0F;
-    --colorSeven: #AA919185;
+    --colorFive: #173753; 
 
     --fontOne: 'Merriweather', 'Playfair Display', serif;
     --fontTwo: 'Times New Roman', Times, serif;
     --fontThree: 'Montserrat', 'Poppins', 'Source Sans Pro', sans-serif;
 }
 
-body {
-    background-color: var(--colorSeven);
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: rgba(169, 169, 169, 0.5);
 }
 body::-webkit-scrollbar {
     width: 0.5rem;
     background-color: transparent;
 }
 body::-webkit-scrollbar-thumb{
-    background-color: var(--colorFive);
+    background-image: linear-gradient(135deg, var(--colorTwo), var(--colorTwo) 48%, var(--colorFive));    
 }
 
 header {
-    background-color: var(--colorFive);
-    margin: -10px -8px 0px -10px;
+    margin-top: -3px;
+    background-image: linear-gradient(45deg, var(--colorFive), var(--colorFive) 48%, var(--colorTwo));
+
 }
 header h1 {
     padding: 1.5rem 0rem 1.5rem 1.3rem;
@@ -41,43 +46,19 @@ header h1 {
 }
 
 nav {
-    margin: -10px -8px 10px -10px;
-    background-color: var(--colorOne);
+    padding: 0.5rem 0rem 0.5rem 1rem;
+    background-color: var(--colorThree);
 }
-nav > a {
+nav a {
     margin-left: 8px;
-    padding: 2px;
-    color: black;
+    font-family: var(--fontOne);
     text-decoration: none;
-    transition-duration: .4s;
+    transition-duration: .4s;    
+    color: var(--colorFive);
 }
-nav > a:hover{
-    color: var(--colorThree);
-}
-
-main > article > div{
-    margin: auto;
-    width: 550px;
-    height: 600px;
-
-    border: 25px solid var(--colorSix);
-    border-radius: 15px;
-
-    background-color: white;
-    color: black;
-}
-main > article > div > strong > h2 {
-    padding: 6px 6px 0px 6px;
-    margin: 6px 6px 0px 6px;
-    text-align: center;
-
-}
-main > article > div > code > p {
-    padding: 6px 6px 0px 6px;
-    margin: 6px 6px 0px 6px;
-    line-height: 1.5em;
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
+nav > a:hover {
+    font-size: 1.2em;
+    color: var(--colorOne);
 }
 
 h1, #title {
@@ -90,8 +71,9 @@ p, #title {
     user-select: none;
 }
 
-footer {
-    padding: 0.3rem 0rem 0.3rem 1rem;    
+footer { 
+    padding: 0.3rem 0rem 0.3rem 1rem;  
+    text-align: center;    
     background-color: var(--colorThree);
 }
 footer p {
@@ -99,6 +81,41 @@ footer p {
     max-width: 100%;
     font: bold 0.9em var(--fontOne);
     color: black;
+    justify-content: center;
 }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.container .card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;    
+    width: 440px;
+    height: 72vh;
 
+    background: rgba(206, 206, 206, 0.432);
+    overflow: hidden;
 
+    border-radius: 15px;    
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);    
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+}
+.content h2 {
+    margin: 15px 8px 8px 8px;
+    font-family: var(--fontOne);
+    text-align: center;
+    font-size: 2em;
+    user-select: none;
+}
+.content div {
+    margin: 0px 30px;
+    font-family: var(--fontThree);
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 2em;
+}
