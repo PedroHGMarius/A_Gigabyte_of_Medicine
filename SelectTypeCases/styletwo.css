@@ -5,8 +5,8 @@
 
 @keyframes casosreais {
     from {
-        font-size: 0.5em;
-        margin-left: 90vw;
+        font-size: 0.1em;
+        margin-left: 95vw;
 }
     to {
         font-size: 4em;
@@ -15,8 +15,8 @@
 }
 @keyframes casoscriados {
     from {
-        font-size: 0.5em;
-        margin-right: 90vw;
+        font-size: 0.1em;
+        margin-right: 95vw;
 }
     to {
         font-size: 4em;
