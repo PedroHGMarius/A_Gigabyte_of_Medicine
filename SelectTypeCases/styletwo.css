@@ -23,17 +23,6 @@
         margin-right: 20px;
     }
 }
-@keyframes img {
-    from {
-        width: 220px;
-        height: 225px;        
-    }
-    to {
-        width: 440px;
-        height: 450px;
-    }
-}
-
 :root {
     --colorOne: #6DAEDB;
     --colorTwo: #2FA7F6;
@@ -74,7 +63,7 @@ a {
     justify-content: flex-start;
     align-items: flex-start; 
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 4em;
     font-family: var(--fontOne);
     color: black;
@@ -87,7 +76,7 @@ a {
     bottom: 0%;
     right: 0%;  
     margin-right: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 4em;
     font-family: var(--fontOne);
     color: white;
