@@ -4,21 +4,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300;400&display=swap');
 
 @keyframes casosreais {
-    0% {
+    from {
         font-size: 0.5em;
-        margin-left: 100vw;
+        margin-left: 90vw;
 }
-    100% {
+    to {
         font-size: 4em;
         margin-left: 20px;
     }
 }
 @keyframes casoscriados {
-    0% {
+    from {
         font-size: 0.5em;
-        margin-right: 100vw;
+        margin-right: 90vw;
 }
-    100% {
+    to {
         font-size: 4em;
         margin-right: 20px;
     }
@@ -52,12 +52,10 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb{
     background-color: var(--colorFive);
 }
-
 a {
     text-decoration: none;
     color: black;
 }
-
 #casosreais{
     display: flex;
     justify-content: flex-start;
@@ -84,7 +82,6 @@ a {
     animation-name: casoscriados;
     animation-duration: 3s;
 }
-
 .container {
     display: flex;
     justify-content: center;
