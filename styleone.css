@@ -128,7 +128,7 @@ section {
     padding: 0;
 }
 .semicirculoUm {
-    
+    background-color: violet;
 }
 .trianguloUm {
     float: inline-start;
@@ -158,7 +158,7 @@ section {
     border-top: 55px solid white;
 }
 .semicirculoDois {
-    
+    background-color: violet;
 }
 .squareimg {
     width: 90%;
