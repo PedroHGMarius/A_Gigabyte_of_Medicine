@@ -23,6 +23,19 @@
         margin-right: 20px;
     }
 }
+@keyframes object {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(0.5);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+} 
 :root {
     --colorOne: #6DAEDB;
     --colorTwo: #2FA7F6;
@@ -88,6 +101,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center; 
+    animation: object 1s;
 }
 .container .card {
     width: 440px;
