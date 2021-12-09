@@ -14,21 +14,6 @@
         padding-left: 20px;
     }
 }
-@keyframes eletro {
-    0% {
-        left: 0%; 
-    }
-    10% {
-        left: 10%;
-        transform: rotate(150deg);
-    }
-    20% {
-        left: 20%; 
-    }
-    30% {
-        left: 30%; 
-    }
-}
 :root {
     --colorOne: #6DAEDB;
     --colorTwo: #2892D7;
@@ -119,15 +104,6 @@ img {
 aside{
     padding-bottom: 60px;
 }
-.eletro {
-    position: relative;
-    bottom: 0%;
-    right: 0%; 
-    width: 25px;
-    height: 5px;
-    background-color: greenyellow;
-    animation: eletro 5s;
-}
 footer {
     min-width: 300px;
     max-width: 100vp;
@@ -141,49 +117,6 @@ footer p {
     font: bold 0.9em var(--fontOne);
     color: black;
 }
-/*
-section {
-    position: absolute;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    z-index: 1;
-    margin: 0;
-    padding: 0;
-}
-.semicirculoUm {
-    background-color: violet;
-}
-.trianguloUm {
-    float: inline-start;
-    position: relative;
-    bottom: 40px;
-    left: 1px;
-    border-right: 8px solid transparent;
-    border-left: 8px solid transparent;
-    border-top: 20px solid white;
-}
-.trianguloDois {
-    float: inline-start;
-    position: relative;
-    bottom: 60px;
-    left: 1px;
-    border-right: 20px solid transparent;
-    border-left: 20px solid transparent;
-    border-bottom: 60px solid var(--colorTwo);
-}
-.trianguloTres {
-    float: inline-start;
-    position: relative;
-    bottom: 5px;
-    left: 1px;
-    border-right: 15px solid transparent;
-    border-left: 15px solid transparent;
-    border-top: 55px solid white;
-}
-.semicirculoDois {
-    background-color: violet;
-}*/
 .squareimg {
     width: 90%;
     height: 240px;
