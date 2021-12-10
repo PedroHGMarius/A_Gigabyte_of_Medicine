@@ -72,6 +72,7 @@ nav > a:hover {
 main {
     min-width: 320px;
     max-width: 800px;
+    height: 800px;
     margin-top: -10px;
     margin: auto;
     padding: 20px;
@@ -93,9 +94,11 @@ ul {
     font-family: var(--fontThree);
 }
 footer {
-    padding: 0.3rem 0rem 0.3rem 1rem;  
+    min-width: 300px;
+    max-width: 100vp;
+    padding: 5em 0em 5em 0em;  
     text-align: center;    
-    background-color: var(--colorThree);
+    background-image: linear-gradient(to bottom, var(--colorTwo), var(--colorTwo), var(--colorFour));
 }
 footer p {
     min-width: 320px;
