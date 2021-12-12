@@ -155,7 +155,8 @@ a {
 .backgroundreal:hover {
     z-index: 1;
     animation-name: zoomOne;
-    animation-duration: 2s;
+    animation-duration: 4s;
+    animation-timing-function: linear;
     clip-path: polygon(100% 0, 100% 60%, 65% 100%, 0 100%, 0 0);
 }
 .backgroundcreated {
@@ -170,6 +171,7 @@ a {
 .backgroundcreated:hover {
     z-index: 2;
     animation-name: zoomTwo;
-    animation-duration: 2s;
+    animation-duration: 4s;
+    animation-timing-function: linear;
     clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%, 0 35%);
 }
