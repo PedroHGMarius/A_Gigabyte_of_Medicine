@@ -33,8 +33,6 @@
 body {
     min-height: 100vh;
     background-color: #6daddb70;
-    background-image: url(Imagens/ImagemFundo.png);
-    background-blend-mode: hue;
 }
 body::-webkit-scrollbar {
     width: 0.5rem;
