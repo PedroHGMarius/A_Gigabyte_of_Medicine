@@ -14,6 +14,11 @@
         padding-left: 20px;
     }
 }
+@keyframes animate {
+    to {
+       stroke-dashoffset: 0;
+    }
+}
 :root {
     --colorOne: #6DAEDB;
     --colorTwo: #2892D7;
@@ -106,7 +111,7 @@ aside{
 }
 footer {
     min-width: 300px;
-    max-width: 100vp;
+    max-width: 100%;
     padding: 5em 0em 5em 0em;  
     text-align: center;    
     background-image: linear-gradient(to bottom, var(--colorTwo), var(--colorTwo), var(--colorFour));
