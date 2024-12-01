@@ -12,14 +12,3 @@
                 Além disso, também é objetivado a integração entre alunos dos cursos de Ciências da Computação (Criação e Manutenção do Site), Teatro (Elaboração de vídeos ilustrando visualmente os casos clínicos reais) e Animação / Ilustração (Preparação de vídeos ilustrando visualmente os casos clínicos criados).   
             </p>
             <div class="squareimg"></div>
-
-
-
-            css
-            body::-webkit-scrollbar {
-    width: 0.5rem;
-    background-color: transparent;
-}
-body::-webkit-scrollbar-thumb{
-    background-image: linear-gradient(135deg, var(--colorTwo), var(--colorTwo) 48%, var(--colorFive));    
-}

@@ -37,7 +37,7 @@
 }
 body {
     min-height: 100vh;
-    background-color: #000;
+    background-color: #6daddb70;
 }
 body::-webkit-scrollbar {
     width: 0.5rem;
@@ -112,7 +112,7 @@ aside{
 footer {
     min-width: 300px;
     max-width: 100%;
-    padding: 5em 0em 5em 0em;  
+    padding: 1em 0em 1em 0em;  
     text-align: center;    
     background-image: linear-gradient(to bottom, var(--colorTwo), var(--colorTwo), var(--colorFour));
 }
