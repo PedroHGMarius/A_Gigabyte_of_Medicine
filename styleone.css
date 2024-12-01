@@ -37,7 +37,7 @@
 }
 body {
     min-height: 100vh;
-    background-color: #6daddb70;
+    background-color: #000;
 }
 body::-webkit-scrollbar {
     width: 0.5rem;

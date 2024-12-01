@@ -112,8 +112,8 @@ a {
 }
 .container {
     position: absolute;
-    right: 20vw;
-    top: 50vh;
+    left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
 }
